@@ -1,0 +1,39 @@
+.current {
+    display: block;
+    justify-content: end;
+    padding: 8px;
+    background-color: skyblue;
+    border-radius: 10px;
+    width: 70%;
+    margin-left: auto;
+    line-break: revert;
+}
+
+.currentUser {
+    display: flex;
+    justify-content: right;
+
+}
+.receiver {
+    padding: 8px;
+    background-color: deepskyblue;
+    border-radius: 10px;
+    width: 70%;
+}
+
+.activeUser {
+    font-weight: bold;
+    width: 150px;
+    border-radius: 12px;
+}
+.activeUser:hover {
+    background-color: limegreen;
+    cursor: pointer;
+}
+
+#app {
+    height: 900px;
+    background-image: linear-gradient(black 1%, coral 2%, deepskyblue );
+}
+
+
